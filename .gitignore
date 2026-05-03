@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Conda / virtual environments
+.conda/
+env/
+venv/
+.venv/
+
+# Large binary files — tracked selectively
+# Model weights ARE included (small enough for GitHub at ~few MB)
+# Reference genomes are NOT included
+*.bam
+*.bai
+*.sam
+*.vcf
+*.bed
+*.fa
+*.fasta
+*.fastq
+*.gz
+*.tar.gz
+*.zip
+
+# Docking intermediate PDBQT files (large, regenerable)
+docking/pdbqt/
+docking/results/*_out.pdbqt
+
+# Large structure files — only keep the round-0 examples
+structures/3d/*.pdb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs (keep pipeline.log for reference, exclude rotation files)
+logs/*.log.*
+
+# Nextflow cache
+.nextflow/
+.nextflow.log*
+work/

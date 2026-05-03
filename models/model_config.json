@@ -1,0 +1,7 @@
+{
+  "max_len": 48,
+  "hidden_channels": 64,
+  "s_min": 0.7473992705345154,
+  "s_max": 2.6666200160980225,
+  "architecture": "AptamerCNN"
+}

@@ -1,0 +1,49 @@
+targets:
+  - name: citrate
+    pubchem_cid: 311
+    smiles: "OC(CC(O)=O)(CC(O)=O)C(O)=O"
+    formal_charge: -3
+    description: "Citric acid / citrate (TCA cycle intermediate)"
+
+  - name: isocitrate
+    pubchem_cid: 1198
+    smiles: "OC(C(CC(O)=O)C(O)=O)C(O)=O"
+    formal_charge: -3
+    description: "Isocitric acid / isocitrate"
+
+  - name: alpha_ketoglutarate
+    pubchem_cid: 51
+    smiles: "OC(=O)CCC(=O)C(O)=O"
+    formal_charge: -2
+    description: "Alpha-ketoglutaric acid (2-oxoglutarate)"
+
+  - name: succinate
+    pubchem_cid: 1110
+    smiles: "OC(=O)CCC(O)=O"
+    formal_charge: -2
+    description: "Succinic acid / succinate"
+
+  - name: fumarate
+    pubchem_cid: 444972
+    smiles: "OC(=O)/C=C/C(O)=O"
+    formal_charge: -2
+    description: "Fumaric acid / fumarate (trans)"
+
+  - name: malate
+    pubchem_cid: 525
+    smiles: "OC(CC(O)=O)C(O)=O"
+    formal_charge: -2
+    description: "L-Malic acid / malate"
+
+  - name: oxaloacetate
+    pubchem_cid: 970
+    smiles: "OC(=O)CC(=O)C(O)=O"
+    formal_charge: -2
+    description: "Oxaloacetic acid / oxaloacetate"
+
+  - name: succinyl_coa
+    pubchem_cid: 91530
+    smiles: "CC(=O)SCCNC(=O)CCNC(=O)[C@@H](O)C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@H](n2cnc3c(N)ncnc23)[C@H](O)[C@@H]1OP(=O)(O)O"
+    formal_charge: -4
+    description: "Succinyl-CoA (TCA cycle intermediate)"
+    skip_docking: true   # 200-atom CoA cofactor; ~26 min/receptor — excluded from demo

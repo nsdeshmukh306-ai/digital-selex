@@ -1,0 +1,24 @@
+name: digital_selex
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - pyyaml>=6.0
+  - requests>=2.31
+  - tqdm>=4.65
+  - rdkit>=2023.03
+  - viennarna>=2.6          # provides `import RNA` Python bindings
+  - openbabel>=3.1          # format conversion fallback
+  - biopython>=1.81
+  - pip
+  - pip:
+    - vina==1.2.5           # AutoDock Vina Python wrapper (ccsb-scripps)
+    - meeko==0.5.0          # PDBQT preparation for Vina
+    - torch>=2.0
+    - torchvision

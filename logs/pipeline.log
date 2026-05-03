@@ -1,0 +1,828 @@
+2026-05-01 19:25:42,590 INFO Processing citrate (CID=311)
+2026-05-01 19:25:45,651 INFO   Downloaded PubChem 3D SDF for CID 311
+2026-05-01 19:25:45,657 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/citrate.sdf
+2026-05-01 19:25:45,958 INFO Processing isocitrate (CID=1198)
+2026-05-01 19:25:46,902 INFO   Downloaded PubChem 3D SDF for CID 1198
+2026-05-01 19:25:46,907 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/isocitrate.sdf
+2026-05-01 19:25:47,208 INFO Processing alpha_ketoglutarate (CID=51)
+2026-05-01 19:25:48,168 INFO   Downloaded PubChem 3D SDF for CID 51
+2026-05-01 19:25:48,173 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/alpha_ketoglutarate.sdf
+2026-05-01 19:25:48,475 INFO Processing succinate (CID=1110)
+2026-05-01 19:25:49,477 INFO   Downloaded PubChem 3D SDF for CID 1110
+2026-05-01 19:25:49,489 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/succinate.sdf
+2026-05-01 19:25:49,790 INFO Processing fumarate (CID=444972)
+2026-05-01 19:25:51,785 INFO   Downloaded PubChem 3D SDF for CID 444972
+2026-05-01 19:25:51,791 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/fumarate.sdf
+2026-05-01 19:25:52,092 INFO Processing malate (CID=525)
+2026-05-01 19:25:53,090 INFO   Downloaded PubChem 3D SDF for CID 525
+2026-05-01 19:25:53,096 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/malate.sdf
+2026-05-01 19:25:53,397 INFO Processing oxaloacetate (CID=970)
+2026-05-01 19:25:54,424 INFO   Downloaded PubChem 3D SDF for CID 970
+2026-05-01 19:25:54,429 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/oxaloacetate.sdf
+2026-05-01 19:25:54,731 INFO Processing succinyl_coa (CID=91530)
+2026-05-01 19:25:57,069 WARNING   PubChem has no 3D SDF for CID 91530; will use RDKit
+2026-05-01 19:25:57,073 INFO   Falling back to RDKit 3D generation from SMILES
+2026-05-01 19:26:00,330 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/succinyl_coa.sdf
+2026-05-01 19:26:00,631 INFO 
+Done. 8/8 metabolites prepared.
+2026-05-01 19:26:01,974 INFO Generating 10 random RNA sequences (round 0)
+2026-05-01 19:26:01,978 INFO Saved FASTA: /home/workshop/niraj/digital_selex/sequences/round_00_pool.fasta  (10 sequences)
+2026-05-01 19:26:01,980 INFO Saved CSV:   /home/workshop/niraj/digital_selex/sequences/round_00_pool.csv
+2026-05-01 19:30:42,129 INFO Predicted structures for 10 sequences → /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv
+2026-05-01 19:30:43,377 INFO Building 3D structures for 10 sequences (coarse-grain A-form)
+2026-05-01 19:30:43,409 INFO Generated 10/10 3D structures in /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 19:30:43,410 WARNING REMINDER: 3D structures are APPROXIMATE (A-form coarse-grain). Docking scores are comparative only – not absolute binding energies.
+2026-05-01 19:30:44,671 INFO ── Preparing ligand PDBQT files ─────────────
+2026-05-01 19:30:46,527 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/citrate.pdbqt
+2026-05-01 19:30:46,543 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/isocitrate.pdbqt
+2026-05-01 19:30:46,554 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/alpha_ketoglutarate.pdbqt
+2026-05-01 19:30:46,565 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinate.pdbqt
+2026-05-01 19:30:46,576 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/fumarate.pdbqt
+2026-05-01 19:30:46,587 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/malate.pdbqt
+2026-05-01 19:30:46,598 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/oxaloacetate.pdbqt
+2026-05-01 19:30:46,640 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinyl_coa.pdbqt
+2026-05-01 19:30:46,641 INFO ── Preparing receptor PDBQT files ───────────
+2026-05-01 19:30:46,642 INFO Preparing 10 receptor PDBQT files
+2026-05-01 19:30:46,689 INFO Prepared 10 receptor PDBQT files
+2026-05-01 19:30:53,158 INFO Docking 10 receptors × 8 ligands (exhaustiveness=4)
+2026-05-01 19:30:53,159 INFO   [1/80] Docking R00_S00002 × citrate
+2026-05-01 19:31:35,961 INFO   [2/80] Docking R00_S00002 × isocitrate
+2026-05-01 19:32:15,330 INFO   [3/80] Docking R00_S00002 × alpha_ketoglutarate
+2026-05-01 19:32:35,181 INFO   [4/80] Docking R00_S00002 × succinate
+2026-05-01 19:32:52,886 INFO   [5/80] Docking R00_S00002 × fumarate
+2026-05-01 19:33:08,138 INFO   [6/80] Docking R00_S00002 × malate
+2026-05-01 19:33:30,807 INFO   [7/80] Docking R00_S00002 × oxaloacetate
+2026-05-01 19:33:49,095 INFO   [8/80] Docking R00_S00002 × succinyl_coa
+2026-05-01 19:59:52,860 INFO   [9/80] Docking R00_S00005 × citrate
+2026-05-01 20:00:29,946 INFO   [10/80] Docking R00_S00005 × isocitrate
+2026-05-01 20:01:05,422 INFO   [11/80] Docking R00_S00005 × alpha_ketoglutarate
+2026-05-01 20:01:24,159 INFO   [12/80] Docking R00_S00005 × succinate
+2026-05-01 20:01:39,656 INFO   [13/80] Docking R00_S00005 × fumarate
+2026-05-01 20:01:53,348 INFO   [14/80] Docking R00_S00005 × malate
+2026-05-01 20:02:12,744 INFO   [15/80] Docking R00_S00005 × oxaloacetate
+2026-05-01 20:02:29,590 INFO   [16/80] Docking R00_S00005 × succinyl_coa
+2026-05-01 20:26:43,102 INFO   [17/80] Docking R00_S00008 × citrate
+2026-05-01 20:27:30,853 INFO   [18/80] Docking R00_S00008 × isocitrate
+2026-05-01 20:28:13,691 INFO   [19/80] Docking R00_S00008 × alpha_ketoglutarate
+2026-05-01 20:28:34,041 INFO   [20/80] Docking R00_S00008 × succinate
+2026-05-01 20:28:52,847 INFO   [21/80] Docking R00_S00008 × fumarate
+2026-05-01 20:29:13,379 INFO   [22/80] Docking R00_S00008 × malate
+2026-05-01 20:29:36,623 INFO   [23/80] Docking R00_S00008 × oxaloacetate
+2026-05-01 20:29:55,546 INFO   [24/80] Docking R00_S00008 × succinyl_coa
+2026-05-01 20:47:00,488 INFO Docking 10 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 20:47:00,490 INFO   [1/70] Docking R00_S00000 × citrate
+2026-05-01 20:47:37,861 INFO   [2/70] Docking R00_S00000 × isocitrate
+2026-05-01 20:48:13,178 INFO   [3/70] Docking R00_S00000 × alpha_ketoglutarate
+2026-05-01 20:48:31,668 INFO   [4/70] Docking R00_S00000 × succinate
+2026-05-01 20:48:47,062 INFO   [5/70] Docking R00_S00000 × fumarate
+2026-05-01 20:49:00,263 INFO   [6/70] Docking R00_S00000 × malate
+2026-05-01 20:49:19,230 INFO   [7/70] Docking R00_S00000 × oxaloacetate
+2026-05-01 20:49:35,730 INFO   [8/70] Docking R00_S00001 × citrate
+2026-05-01 20:50:19,440 INFO   [9/70] Docking R00_S00001 × isocitrate
+2026-05-01 20:50:58,313 INFO   [10/70] Docking R00_S00001 × alpha_ketoglutarate
+2026-05-01 20:51:17,874 INFO   [11/70] Docking R00_S00001 × succinate
+2026-05-01 20:51:35,352 INFO   [12/70] Docking R00_S00001 × fumarate
+2026-05-01 20:51:50,681 INFO   [13/70] Docking R00_S00001 × malate
+2026-05-01 20:52:12,094 INFO   [14/70] Docking R00_S00001 × oxaloacetate
+2026-05-01 20:52:30,097 INFO   [15/70] Recover (pose exists): R00_S00002 × citrate  affinity=-1.208
+2026-05-01 20:52:30,099 INFO   [16/70] Recover (pose exists): R00_S00002 × isocitrate  affinity=-1.094
+2026-05-01 20:52:30,100 INFO   [17/70] Recover (pose exists): R00_S00002 × alpha_ketoglutarate  affinity=-0.941
+2026-05-01 20:52:30,101 INFO   [18/70] Recover (pose exists): R00_S00002 × succinate  affinity=-0.928
+2026-05-01 20:52:30,102 INFO   [19/70] Recover (pose exists): R00_S00002 × fumarate  affinity=-1.093
+2026-05-01 20:52:30,103 INFO   [20/70] Recover (pose exists): R00_S00002 × malate  affinity=-1.041
+2026-05-01 20:52:30,104 INFO   [21/70] Recover (pose exists): R00_S00002 × oxaloacetate  affinity=-0.909
+2026-05-01 20:52:30,105 INFO   [22/70] Docking R00_S00003 × citrate
+2026-05-01 20:53:03,176 INFO   [23/70] Docking R00_S00003 × isocitrate
+2026-05-01 20:53:38,261 INFO   [24/70] Docking R00_S00003 × alpha_ketoglutarate
+2026-05-01 20:53:56,386 INFO   [25/70] Docking R00_S00003 × succinate
+2026-05-01 20:54:10,385 INFO   [26/70] Docking R00_S00003 × fumarate
+2026-05-01 20:54:22,158 INFO   [27/70] Docking R00_S00003 × malate
+2026-05-01 20:54:39,341 INFO   [28/70] Docking R00_S00003 × oxaloacetate
+2026-05-01 20:54:54,510 INFO   [29/70] Docking R00_S00004 × citrate
+2026-05-01 20:55:41,575 INFO   [30/70] Docking R00_S00004 × isocitrate
+2026-05-01 20:56:23,542 INFO   [31/70] Docking R00_S00004 × alpha_ketoglutarate
+2026-05-01 20:56:44,314 INFO   [32/70] Docking R00_S00004 × succinate
+2026-05-01 20:57:03,241 INFO   [33/70] Docking R00_S00004 × fumarate
+2026-05-01 20:57:19,888 INFO   [34/70] Docking R00_S00004 × malate
+2026-05-01 20:57:43,430 INFO   [35/70] Docking R00_S00004 × oxaloacetate
+2026-05-01 20:58:02,453 INFO   [36/70] Recover (pose exists): R00_S00005 × citrate  affinity=-1.212
+2026-05-01 20:58:02,456 INFO   [37/70] Recover (pose exists): R00_S00005 × isocitrate  affinity=-1.318
+2026-05-01 20:58:02,457 INFO   [38/70] Recover (pose exists): R00_S00005 × alpha_ketoglutarate  affinity=-1.089
+2026-05-01 20:58:02,457 INFO   [39/70] Recover (pose exists): R00_S00005 × succinate  affinity=-1.065
+2026-05-01 20:58:02,458 INFO   [40/70] Recover (pose exists): R00_S00005 × fumarate  affinity=-1.073
+2026-05-01 20:58:02,459 INFO   [41/70] Recover (pose exists): R00_S00005 × malate  affinity=-1.258
+2026-05-01 20:58:02,460 INFO   [42/70] Recover (pose exists): R00_S00005 × oxaloacetate  affinity=-1.076
+2026-05-01 20:58:02,461 INFO   [43/70] Docking R00_S00006 × citrate
+2026-05-01 20:58:50,824 INFO   [44/70] Docking R00_S00006 × isocitrate
+2026-05-01 20:59:33,068 INFO   [45/70] Docking R00_S00006 × alpha_ketoglutarate
+2026-05-01 20:59:53,522 INFO   [46/70] Docking R00_S00006 × succinate
+2026-05-01 21:00:12,578 INFO   [47/70] Docking R00_S00006 × fumarate
+2026-05-01 21:00:29,067 INFO   [48/70] Docking R00_S00006 × malate
+2026-05-01 21:00:52,620 INFO   [49/70] Docking R00_S00006 × oxaloacetate
+2026-05-01 21:01:11,479 INFO   [50/70] Docking R00_S00007 × citrate
+2026-05-01 21:01:53,762 INFO   [51/70] Docking R00_S00007 × isocitrate
+2026-05-01 21:02:31,842 INFO   [52/70] Docking R00_S00007 × alpha_ketoglutarate
+2026-05-01 21:02:51,102 INFO   [53/70] Docking R00_S00007 × succinate
+2026-05-01 21:03:08,155 INFO   [54/70] Docking R00_S00007 × fumarate
+2026-05-01 21:03:22,871 INFO   [55/70] Docking R00_S00007 × malate
+2026-05-01 21:03:44,403 INFO   [56/70] Docking R00_S00007 × oxaloacetate
+2026-05-01 21:04:02,008 INFO   [57/70] Recover (pose exists): R00_S00008 × citrate  affinity=0.0
+2026-05-01 21:04:02,010 INFO   [58/70] Recover (pose exists): R00_S00008 × isocitrate  affinity=0.0
+2026-05-01 21:04:02,011 INFO   [59/70] Recover (pose exists): R00_S00008 × alpha_ketoglutarate  affinity=0.0
+2026-05-01 21:04:02,012 INFO   [60/70] Recover (pose exists): R00_S00008 × succinate  affinity=0.0
+2026-05-01 21:04:02,013 INFO   [61/70] Recover (pose exists): R00_S00008 × fumarate  affinity=0.0
+2026-05-01 21:04:02,014 INFO   [62/70] Recover (pose exists): R00_S00008 × malate  affinity=0.0
+2026-05-01 21:04:02,015 INFO   [63/70] Recover (pose exists): R00_S00008 × oxaloacetate  affinity=0.0
+2026-05-01 21:04:02,015 INFO   [64/70] Docking R00_S00009 × citrate
+2026-05-01 21:04:48,542 INFO   [65/70] Docking R00_S00009 × isocitrate
+2026-05-01 21:05:29,200 INFO   [66/70] Docking R00_S00009 × alpha_ketoglutarate
+2026-05-01 21:05:49,020 INFO   [67/70] Docking R00_S00009 × succinate
+2026-05-01 21:06:07,232 INFO   [68/70] Docking R00_S00009 × fumarate
+2026-05-01 21:06:22,759 INFO   [69/70] Docking R00_S00009 × malate
+2026-05-01 21:06:45,112 INFO   [70/70] Docking R00_S00009 × oxaloacetate
+2026-05-01 21:07:03,515 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv  (70 pairs)
+2026-05-01 21:18:23,299 INFO Docking 10 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 21:18:23,306 INFO   [57/70] Docking R00_S00008 × citrate
+2026-05-01 21:19:10,620 INFO   [58/70] Docking R00_S00008 × isocitrate
+2026-05-01 21:19:52,984 INFO   [59/70] Docking R00_S00008 × alpha_ketoglutarate
+2026-05-01 21:20:13,415 INFO   [60/70] Docking R00_S00008 × succinate
+2026-05-01 21:20:32,337 INFO   [61/70] Docking R00_S00008 × fumarate
+2026-05-01 21:20:53,646 INFO   [62/70] Docking R00_S00008 × malate
+2026-05-01 21:21:17,025 INFO   [63/70] Docking R00_S00008 × oxaloacetate
+2026-05-01 21:21:35,901 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv  (7 pairs)
+2026-05-01 22:26:57,530 INFO Docking 10 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 22:26:57,537 INFO   [57/70] Docking R00_S00008 × citrate
+2026-05-01 22:27:30,237 INFO   [58/70] Docking R00_S00008 × isocitrate
+2026-05-01 22:28:03,199 INFO   [59/70] Docking R00_S00008 × alpha_ketoglutarate
+2026-05-01 22:28:21,016 INFO   [60/70] Docking R00_S00008 × succinate
+2026-05-01 22:28:34,614 INFO   [61/70] Docking R00_S00008 × fumarate
+2026-05-01 22:28:46,415 INFO   [62/70] Docking R00_S00008 × malate
+2026-05-01 22:29:03,478 INFO   [63/70] Docking R00_S00008 × oxaloacetate
+2026-05-01 22:29:18,740 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv  (7 pairs)
+2026-05-01 22:31:14,294 INFO Computing composite scores …
+2026-05-01 22:31:14,382 INFO Detailed scores: /home/workshop/niraj/digital_selex/results/rankings/round_00_scores_detailed.csv
+2026-05-01 22:31:14,383 INFO Ranking aptamers …
+2026-05-01 22:31:14,451 INFO Ranked aptamers: /home/workshop/niraj/digital_selex/results/rankings/round_00_ranked.csv
+2026-05-01 22:31:14,464 INFO 
+Top 10 aptamers (round 0):
+ rank     seq_id                                         sequence  mean_score best_target
+    1 R00_S00005       UCAGGUCUCUGGCUUAUCACGAUGUAGGAUAGGGCCUAGCCA    2.264667  isocitrate
+    2 R00_S00001                  GCACCUGACGUACUCGCCAUUUAGAGGCGUC    1.912970     citrate
+    3 R00_S00008                AUAAGCAUGCGCGUACCAGAGCAUAGCAUCUAU    1.799725  isocitrate
+    4 R00_S00000                  CGUUCAGAAGCGCGCGACUGUACCGUCGUUA    1.748256     citrate
+    5 R00_S00007 ACAGUUACUGUUCAGGUUACCAAAACCAGAUGGCAAUUCCUCUGUACA    1.631835     citrate
+    6 R00_S00003                   CUGAUUCAUUCCAACACUCUUGAGGCCGUU    1.572049     citrate
+    7 R00_S00002           UCUAUCAUAGUUAGGCUACGGAUCCUCCUCUAGGACAC    1.319256     citrate
+    8 R00_S00009         GUCGUCCUAGGAGCAGAGUACAGACGCUUGCCAGAUCUCU    0.981214  isocitrate
+    9 R00_S00006               AAGGUUCUCCUACGUGGCUCCAAGAUUCCACAGC    0.901530  isocitrate
+   10 R00_S00004           GUUCCUCUGCUGUAAUCAUGAGUCGGAUCACUGGUUGA    0.747399      malate
+2026-05-01 22:33:47,777 INFO ═══ Starting SELEX: 3 rounds, pool=10 ═══
+2026-05-01 22:33:47,778 INFO Round 0: Generating initial random pool …
+2026-05-01 22:33:47,778 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/02_generate_sequences.py --round 0
+2026-05-01 22:33:48,857 INFO Generating 10 random RNA sequences (round 0)
+2026-05-01 22:33:48,862 INFO Saved FASTA: /home/workshop/niraj/digital_selex/sequences/round_00_pool.fasta  (10 sequences)
+2026-05-01 22:33:48,864 INFO Saved CSV:   /home/workshop/niraj/digital_selex/sequences/round_00_pool.csv
+2026-05-01 22:33:49,001 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/03_predict_2d_structure.py --fasta /home/workshop/niraj/digital_selex/sequences/round_00_pool.fasta --outdir /home/workshop/niraj/digital_selex/structures/2d --round 0
+2026-05-01 22:33:50,228 INFO Predicted structures for 10 sequences → /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv
+2026-05-01 22:33:50,379 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/04_generate_3d_structure.py --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv --outdir /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 22:33:51,460 INFO Building 3D structures for 10 sequences (coarse-grain A-form)
+2026-05-01 22:33:51,502 INFO Generated 10/10 3D structures in /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 22:33:51,502 WARNING REMINDER: 3D structures are APPROXIMATE (A-form coarse-grain). Docking scores are comparative only – not absolute binding energies.
+2026-05-01 22:33:51,640 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/05_prepare_docking.py --3d-dir /home/workshop/niraj/digital_selex/structures/3d --round 0
+2026-05-01 22:33:52,755 INFO ── Preparing ligand PDBQT files ─────────────
+2026-05-01 22:33:54,608 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/citrate.pdbqt
+2026-05-01 22:33:54,624 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/isocitrate.pdbqt
+2026-05-01 22:33:54,636 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/alpha_ketoglutarate.pdbqt
+2026-05-01 22:33:54,647 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinate.pdbqt
+2026-05-01 22:33:54,658 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/fumarate.pdbqt
+2026-05-01 22:33:54,670 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/malate.pdbqt
+2026-05-01 22:33:54,681 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/oxaloacetate.pdbqt
+2026-05-01 22:33:54,725 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinyl_coa.pdbqt
+2026-05-01 22:33:54,726 INFO ── Preparing receptor PDBQT files ───────────
+2026-05-01 22:33:54,727 INFO Preparing 10 receptor PDBQT files
+2026-05-01 22:33:54,782 INFO Prepared 10 receptor PDBQT files
+2026-05-01 22:33:55,188 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/06_run_docking.py --round 0 --resume
+2026-05-01 22:33:56,309 INFO Docking 10 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 22:33:56,316 WARNING No docking results written
+2026-05-01 22:33:56,454 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/07_score_aptamers.py --docking-csv /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv --seq-csv /home/workshop/niraj/digital_selex/sequences/round_00_pool.csv --outdir /home/workshop/niraj/digital_selex/results/rankings --round 0
+2026-05-01 22:33:58,607 INFO Computing composite scores …
+2026-05-01 22:33:58,696 INFO Detailed scores: /home/workshop/niraj/digital_selex/results/rankings/round_00_scores_detailed.csv
+2026-05-01 22:33:58,697 INFO Ranking aptamers …
+2026-05-01 22:33:58,767 INFO Ranked aptamers: /home/workshop/niraj/digital_selex/results/rankings/round_00_ranked.csv
+2026-05-01 22:33:58,781 INFO 
+Top 10 aptamers (round 0):
+ rank     seq_id                                         sequence  mean_score best_target
+    1 R00_S00005       UCAGGUCUCUGGCUUAUCACGAUGUAGGAUAGGGCCUAGCCA    2.264667  isocitrate
+    2 R00_S00001                  GCACCUGACGUACUCGCCAUUUAGAGGCGUC    1.912970     citrate
+    3 R00_S00008                AUAAGCAUGCGCGUACCAGAGCAUAGCAUCUAU    1.799725  isocitrate
+    4 R00_S00000                  CGUUCAGAAGCGCGCGACUGUACCGUCGUUA    1.748256     citrate
+    5 R00_S00007 ACAGUUACUGUUCAGGUUACCAAAACCAGAUGGCAAUUCCUCUGUACA    1.631835     citrate
+    6 R00_S00003                   CUGAUUCAUUCCAACACUCUUGAGGCCGUU    1.572049     citrate
+    7 R00_S00002           UCUAUCAUAGUUAGGCUACGGAUCCUCCUCUAGGACAC    1.319256     citrate
+    8 R00_S00009         GUCGUCCUAGGAGCAGAGUACAGACGCUUGCCAGAUCUCU    0.981214  isocitrate
+    9 R00_S00006               AAGGUUCUCCUACGUGGCUCCAAGAUUCCACAGC    0.901530  isocitrate
+   10 R00_S00004           GUUCCUCUGCUGUAAUCAUGAGUCGGAUCACUGGUUGA    0.747399      malate
+2026-05-01 22:33:59,076 ERROR Round 0: Scoring failed
+2026-05-01 22:33:59,077 ERROR Round 0 failed
+2026-05-01 22:37:25,150 INFO ═══ Starting SELEX: 3 rounds, pool=10, start_round=1 ═══
+2026-05-01 22:37:25,151 INFO Resuming from existing round 0 rankings: /home/workshop/niraj/digital_selex/results/rankings/round_00_ranked.csv
+2026-05-01 22:37:25,151 INFO 
+═══ SELEX Round 1/2 ═══
+2026-05-01 22:37:25,172 INFO   Selected 3 top aptamers for mutation
+2026-05-01 22:37:25,178 INFO   Built pool: 10 sequences (8 mutants + 2 random)
+2026-05-01 22:37:25,181 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/03_predict_2d_structure.py --fasta /home/workshop/niraj/digital_selex/sequences/round_01_pool.fasta --outdir /home/workshop/niraj/digital_selex/structures/2d --round 1
+2026-05-01 22:37:26,403 INFO Predicted structures for 10 sequences → /home/workshop/niraj/digital_selex/structures/2d/round_01_structures.csv
+2026-05-01 22:37:26,555 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/04_generate_3d_structure.py --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_01_structures.csv --outdir /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 22:37:27,633 INFO Building 3D structures for 10 sequences (coarse-grain A-form)
+2026-05-01 22:37:27,671 INFO Generated 10/10 3D structures in /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 22:37:27,672 WARNING REMINDER: 3D structures are APPROXIMATE (A-form coarse-grain). Docking scores are comparative only – not absolute binding energies.
+2026-05-01 22:37:27,808 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/05_prepare_docking.py --3d-dir /home/workshop/niraj/digital_selex/structures/3d --round 1
+2026-05-01 22:37:28,918 INFO ── Preparing ligand PDBQT files ─────────────
+2026-05-01 22:37:30,825 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/citrate.pdbqt
+2026-05-01 22:37:30,841 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/isocitrate.pdbqt
+2026-05-01 22:37:30,853 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/alpha_ketoglutarate.pdbqt
+2026-05-01 22:37:30,865 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinate.pdbqt
+2026-05-01 22:37:30,876 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/fumarate.pdbqt
+2026-05-01 22:37:30,888 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/malate.pdbqt
+2026-05-01 22:37:30,899 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/oxaloacetate.pdbqt
+2026-05-01 22:37:30,943 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinyl_coa.pdbqt
+2026-05-01 22:37:30,943 INFO ── Preparing receptor PDBQT files ───────────
+2026-05-01 22:37:30,944 INFO Preparing 20 receptor PDBQT files
+2026-05-01 22:37:31,048 INFO Prepared 20 receptor PDBQT files
+2026-05-01 22:37:31,545 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/06_run_docking.py --round 1 --resume
+2026-05-01 22:37:32,664 INFO Docking 20 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 22:37:32,668 INFO   [1/140] Recover (pose exists): R00_S00000 × citrate  affinity=-1.296
+2026-05-01 22:37:32,669 INFO   [2/140] Recover (pose exists): R00_S00000 × isocitrate  affinity=-1.269
+2026-05-01 22:37:32,670 INFO   [3/140] Recover (pose exists): R00_S00000 × alpha_ketoglutarate  affinity=-1.209
+2026-05-01 22:37:32,671 INFO   [4/140] Recover (pose exists): R00_S00000 × succinate  affinity=-1.002
+2026-05-01 22:37:32,672 INFO   [5/140] Recover (pose exists): R00_S00000 × fumarate  affinity=-1.098
+2026-05-01 22:37:32,673 INFO   [6/140] Recover (pose exists): R00_S00000 × malate  affinity=-1.144
+2026-05-01 22:37:32,674 INFO   [7/140] Recover (pose exists): R00_S00000 × oxaloacetate  affinity=-0.978
+2026-05-01 22:37:32,675 INFO   [8/140] Recover (pose exists): R00_S00001 × citrate  affinity=-1.223
+2026-05-01 22:37:32,676 INFO   [9/140] Recover (pose exists): R00_S00001 × isocitrate  affinity=-1.219
+2026-05-01 22:37:32,677 INFO   [10/140] Recover (pose exists): R00_S00001 × alpha_ketoglutarate  affinity=-0.938
+2026-05-01 22:37:32,678 INFO   [11/140] Recover (pose exists): R00_S00001 × succinate  affinity=-0.996
+2026-05-01 22:37:32,679 INFO   [12/140] Recover (pose exists): R00_S00001 × fumarate  affinity=-1.099
+2026-05-01 22:37:32,680 INFO   [13/140] Recover (pose exists): R00_S00001 × malate  affinity=-1.096
+2026-05-01 22:37:32,680 INFO   [14/140] Recover (pose exists): R00_S00001 × oxaloacetate  affinity=-0.898
+2026-05-01 22:37:32,682 INFO   [15/140] Recover (pose exists): R00_S00002 × citrate  affinity=-1.208
+2026-05-01 22:37:32,683 INFO   [16/140] Recover (pose exists): R00_S00002 × isocitrate  affinity=-1.094
+2026-05-01 22:37:32,683 INFO   [17/140] Recover (pose exists): R00_S00002 × alpha_ketoglutarate  affinity=-0.941
+2026-05-01 22:37:32,684 INFO   [18/140] Recover (pose exists): R00_S00002 × succinate  affinity=-0.928
+2026-05-01 22:37:32,685 INFO   [19/140] Recover (pose exists): R00_S00002 × fumarate  affinity=-1.093
+2026-05-01 22:37:32,686 INFO   [20/140] Recover (pose exists): R00_S00002 × malate  affinity=-1.041
+2026-05-01 22:37:32,687 INFO   [21/140] Recover (pose exists): R00_S00002 × oxaloacetate  affinity=-0.909
+2026-05-01 22:37:32,688 INFO   [22/140] Recover (pose exists): R00_S00003 × citrate  affinity=-1.713
+2026-05-01 22:37:32,689 INFO   [23/140] Recover (pose exists): R00_S00003 × isocitrate  affinity=-1.628
+2026-05-01 22:37:32,690 INFO   [24/140] Recover (pose exists): R00_S00003 × alpha_ketoglutarate  affinity=-1.537
+2026-05-01 22:37:32,691 INFO   [25/140] Recover (pose exists): R00_S00003 × succinate  affinity=-1.522
+2026-05-01 22:37:32,691 INFO   [26/140] Recover (pose exists): R00_S00003 × fumarate  affinity=-1.535
+2026-05-01 22:37:32,692 INFO   [27/140] Recover (pose exists): R00_S00003 × malate  affinity=-1.553
+2026-05-01 22:37:32,693 INFO   [28/140] Recover (pose exists): R00_S00003 × oxaloacetate  affinity=-1.528
+2026-05-01 22:37:32,694 INFO   [29/140] Recover (pose exists): R00_S00004 × citrate  affinity=-0.268
+2026-05-01 22:37:32,695 INFO   [30/140] Recover (pose exists): R00_S00004 × isocitrate  affinity=-0.291
+2026-05-01 22:37:32,696 INFO   [31/140] Recover (pose exists): R00_S00004 × alpha_ketoglutarate  affinity=-0.233
+2026-05-01 22:37:32,697 INFO   [32/140] Recover (pose exists): R00_S00004 × succinate  affinity=-0.272
+2026-05-01 22:37:32,697 INFO   [33/140] Recover (pose exists): R00_S00004 × fumarate  affinity=-0.256
+2026-05-01 22:37:32,698 INFO   [34/140] Recover (pose exists): R00_S00004 × malate  affinity=-0.3
+2026-05-01 22:37:32,699 INFO   [35/140] Recover (pose exists): R00_S00004 × oxaloacetate  affinity=-0.261
+2026-05-01 22:37:32,700 INFO   [36/140] Recover (pose exists): R00_S00005 × citrate  affinity=-1.212
+2026-05-01 22:37:32,701 INFO   [37/140] Recover (pose exists): R00_S00005 × isocitrate  affinity=-1.318
+2026-05-01 22:37:32,702 INFO   [38/140] Recover (pose exists): R00_S00005 × alpha_ketoglutarate  affinity=-1.089
+2026-05-01 22:37:32,703 INFO   [39/140] Recover (pose exists): R00_S00005 × succinate  affinity=-1.065
+2026-05-01 22:37:32,703 INFO   [40/140] Recover (pose exists): R00_S00005 × fumarate  affinity=-1.073
+2026-05-01 22:37:32,704 INFO   [41/140] Recover (pose exists): R00_S00005 × malate  affinity=-1.258
+2026-05-01 22:37:32,705 INFO   [42/140] Recover (pose exists): R00_S00005 × oxaloacetate  affinity=-1.076
+2026-05-01 22:37:32,706 INFO   [43/140] Recover (pose exists): R00_S00006 × citrate  affinity=-0.405
+2026-05-01 22:37:32,707 INFO   [44/140] Recover (pose exists): R00_S00006 × isocitrate  affinity=-0.448
+2026-05-01 22:37:32,708 INFO   [45/140] Recover (pose exists): R00_S00006 × alpha_ketoglutarate  affinity=-0.415
+2026-05-01 22:37:32,708 INFO   [46/140] Recover (pose exists): R00_S00006 × succinate  affinity=-0.4
+2026-05-01 22:37:32,709 INFO   [47/140] Recover (pose exists): R00_S00006 × fumarate  affinity=-0.436
+2026-05-01 22:37:32,710 INFO   [48/140] Recover (pose exists): R00_S00006 × malate  affinity=-0.42
+2026-05-01 22:37:32,711 INFO   [49/140] Recover (pose exists): R00_S00006 × oxaloacetate  affinity=-0.297
+2026-05-01 22:37:32,712 INFO   [50/140] Recover (pose exists): R00_S00007 × citrate  affinity=-1.188
+2026-05-01 22:37:32,713 INFO   [51/140] Recover (pose exists): R00_S00007 × isocitrate  affinity=-1.093
+2026-05-01 22:37:32,714 INFO   [52/140] Recover (pose exists): R00_S00007 × alpha_ketoglutarate  affinity=-0.915
+2026-05-01 22:37:32,715 INFO   [53/140] Recover (pose exists): R00_S00007 × succinate  affinity=-0.895
+2026-05-01 22:37:32,715 INFO   [54/140] Recover (pose exists): R00_S00007 × fumarate  affinity=-0.987
+2026-05-01 22:37:32,716 INFO   [55/140] Recover (pose exists): R00_S00007 × malate  affinity=-1.025
+2026-05-01 22:37:32,717 INFO   [56/140] Recover (pose exists): R00_S00007 × oxaloacetate  affinity=-0.939
+2026-05-01 22:37:32,718 INFO   [57/140] Recover (pose exists): R00_S00008 × citrate  affinity=-1.215
+2026-05-01 22:37:32,719 INFO   [58/140] Recover (pose exists): R00_S00008 × isocitrate  affinity=-1.241
+2026-05-01 22:37:32,720 INFO   [59/140] Recover (pose exists): R00_S00008 × alpha_ketoglutarate  affinity=-1.059
+2026-05-01 22:37:32,721 INFO   [60/140] Recover (pose exists): R00_S00008 × succinate  affinity=-0.99
+2026-05-01 22:37:32,721 INFO   [61/140] Recover (pose exists): R00_S00008 × fumarate  affinity=-1.138
+2026-05-01 22:37:32,722 INFO   [62/140] Recover (pose exists): R00_S00008 × malate  affinity=-1.133
+2026-05-01 22:37:32,723 INFO   [63/140] Recover (pose exists): R00_S00008 × oxaloacetate  affinity=-1.078
+2026-05-01 22:37:32,724 INFO   [64/140] Recover (pose exists): R00_S00009 × citrate  affinity=-0.65
+2026-05-01 22:37:32,725 INFO   [65/140] Recover (pose exists): R00_S00009 × isocitrate  affinity=-0.706
+2026-05-01 22:37:32,726 INFO   [66/140] Recover (pose exists): R00_S00009 × alpha_ketoglutarate  affinity=-0.688
+2026-05-01 22:37:32,726 INFO   [67/140] Recover (pose exists): R00_S00009 × succinate  affinity=-0.585
+2026-05-01 22:37:32,727 INFO   [68/140] Recover (pose exists): R00_S00009 × fumarate  affinity=-0.616
+2026-05-01 22:37:32,728 INFO   [69/140] Recover (pose exists): R00_S00009 × malate  affinity=-0.56
+2026-05-01 22:37:32,729 INFO   [70/140] Recover (pose exists): R00_S00009 × oxaloacetate  affinity=-0.561
+2026-05-01 22:37:32,729 INFO   [71/140] Docking R01_M00000 × citrate
+2026-05-01 22:38:05,587 INFO   [72/140] Docking R01_M00000 × isocitrate
+2026-05-01 22:38:38,355 INFO   [73/140] Docking R01_M00000 × alpha_ketoglutarate
+2026-05-01 22:38:56,062 INFO   [74/140] Docking R01_M00000 × succinate
+2026-05-01 22:39:09,558 INFO   [75/140] Docking R01_M00000 × fumarate
+2026-05-01 22:39:21,667 INFO   [76/140] Docking R01_M00000 × malate
+2026-05-01 22:39:38,712 INFO   [77/140] Docking R01_M00000 × oxaloacetate
+2026-05-01 22:39:53,733 INFO   [78/140] Docking R01_M00001 × citrate
+2026-05-01 22:40:28,936 INFO   [79/140] Docking R01_M00001 × isocitrate
+2026-05-01 22:41:02,774 INFO   [80/140] Docking R01_M00001 × alpha_ketoglutarate
+2026-05-01 22:41:20,884 INFO   [81/140] Docking R01_M00001 × succinate
+2026-05-01 22:41:35,821 INFO   [82/140] Docking R01_M00001 × fumarate
+2026-05-01 22:41:49,009 INFO   [83/140] Docking R01_M00001 × malate
+2026-05-01 22:42:07,572 INFO   [84/140] Docking R01_M00001 × oxaloacetate
+2026-05-01 22:42:23,749 INFO   [85/140] Docking R01_M00002 × citrate
+2026-05-01 22:42:58,575 INFO   [86/140] Docking R01_M00002 × isocitrate
+2026-05-01 22:43:32,427 INFO   [87/140] Docking R01_M00002 × alpha_ketoglutarate
+2026-05-01 22:43:50,201 INFO   [88/140] Docking R01_M00002 × succinate
+2026-05-01 22:44:04,578 INFO   [89/140] Docking R01_M00002 × fumarate
+2026-05-01 22:44:17,092 INFO   [90/140] Docking R01_M00002 × malate
+2026-05-01 22:44:34,669 INFO   [91/140] Docking R01_M00002 × oxaloacetate
+2026-05-01 22:44:50,438 INFO   [92/140] Docking R01_M00003 × citrate
+2026-05-01 22:45:22,391 INFO   [93/140] Docking R01_M00003 × isocitrate
+2026-05-01 22:45:56,074 INFO   [94/140] Docking R01_M00003 × alpha_ketoglutarate
+2026-05-01 22:46:13,086 INFO   [95/140] Docking R01_M00003 × succinate
+2026-05-01 22:46:26,249 INFO   [96/140] Docking R01_M00003 × fumarate
+2026-05-01 22:46:37,606 INFO   [97/140] Docking R01_M00003 × malate
+2026-05-01 22:46:53,866 INFO   [98/140] Docking R01_M00003 × oxaloacetate
+2026-05-01 22:47:08,452 INFO   [99/140] Docking R01_M00004 × citrate
+2026-05-01 22:47:40,443 INFO   [100/140] Docking R01_M00004 × isocitrate
+2026-05-01 22:48:13,134 INFO   [101/140] Docking R01_M00004 × alpha_ketoglutarate
+2026-05-01 22:48:30,320 INFO   [102/140] Docking R01_M00004 × succinate
+2026-05-01 22:48:43,350 INFO   [103/140] Docking R01_M00004 × fumarate
+2026-05-01 22:48:54,675 INFO   [104/140] Docking R01_M00004 × malate
+2026-05-01 22:49:11,248 INFO   [105/140] Docking R01_M00004 × oxaloacetate
+2026-05-01 22:49:26,223 INFO   [106/140] Docking R01_M00005 × citrate
+2026-05-01 22:49:59,050 INFO   [107/140] Docking R01_M00005 × isocitrate
+2026-05-01 22:50:31,825 INFO   [108/140] Docking R01_M00005 × alpha_ketoglutarate
+2026-05-01 22:50:49,367 INFO   [109/140] Docking R01_M00005 × succinate
+2026-05-01 22:51:03,252 INFO   [110/140] Docking R01_M00005 × fumarate
+2026-05-01 22:51:15,021 INFO   [111/140] Docking R01_M00005 × malate
+2026-05-01 22:51:32,195 INFO   [112/140] Docking R01_M00005 × oxaloacetate
+2026-05-01 22:51:47,404 INFO   [113/140] Docking R01_M00006 × citrate
+2026-05-01 22:52:20,189 INFO   [114/140] Docking R01_M00006 × isocitrate
+2026-05-01 22:52:52,329 INFO   [115/140] Docking R01_M00006 × alpha_ketoglutarate
+2026-05-01 22:53:09,495 INFO   [116/140] Docking R01_M00006 × succinate
+2026-05-01 22:53:22,497 INFO   [117/140] Docking R01_M00006 × fumarate
+2026-05-01 22:53:34,059 INFO   [118/140] Docking R01_M00006 × malate
+2026-05-01 22:53:50,590 INFO   [119/140] Docking R01_M00006 × oxaloacetate
+2026-05-01 22:54:05,240 INFO   [120/140] Docking R01_M00007 × citrate
+2026-05-01 22:54:41,681 INFO   [121/140] Docking R01_M00007 × isocitrate
+2026-05-01 22:55:15,195 INFO   [122/140] Docking R01_M00007 × alpha_ketoglutarate
+2026-05-01 22:55:33,203 INFO   [123/140] Docking R01_M00007 × succinate
+2026-05-01 22:55:48,482 INFO   [124/140] Docking R01_M00007 × fumarate
+2026-05-01 22:56:01,496 INFO   [125/140] Docking R01_M00007 × malate
+2026-05-01 22:56:19,871 INFO   [126/140] Docking R01_M00007 × oxaloacetate
+2026-05-01 22:56:36,443 INFO   [127/140] Docking R01_N00000 × citrate
+2026-05-01 22:57:10,102 INFO   [128/140] Docking R01_N00000 × isocitrate
+2026-05-01 22:57:43,599 INFO   [129/140] Docking R01_N00000 × alpha_ketoglutarate
+2026-05-01 22:58:01,259 INFO   [130/140] Docking R01_N00000 × succinate
+2026-05-01 22:58:15,031 INFO   [131/140] Docking R01_N00000 × fumarate
+2026-05-01 22:58:27,061 INFO   [132/140] Docking R01_N00000 × malate
+2026-05-01 22:58:44,263 INFO   [133/140] Docking R01_N00000 × oxaloacetate
+2026-05-01 22:58:59,540 INFO   [134/140] Docking R01_N00001 × citrate
+2026-05-01 22:59:33,728 INFO   [135/140] Docking R01_N00001 × isocitrate
+2026-05-01 23:00:07,099 INFO   [136/140] Docking R01_N00001 × alpha_ketoglutarate
+2026-05-01 23:00:25,043 INFO   [137/140] Docking R01_N00001 × succinate
+2026-05-01 23:00:39,150 INFO   [138/140] Docking R01_N00001 × fumarate
+2026-05-01 23:00:51,580 INFO   [139/140] Docking R01_N00001 × malate
+2026-05-01 23:01:09,315 INFO   [140/140] Docking R01_N00001 × oxaloacetate
+2026-05-01 23:01:25,405 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_01_docking_results.csv  (140 pairs)
+2026-05-01 23:01:25,580 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/07_score_aptamers.py --docking-csv /home/workshop/niraj/digital_selex/docking/results/round_01_docking_results.csv --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_01_structures.csv --seq-csv /home/workshop/niraj/digital_selex/sequences/round_01_pool.csv --outdir /home/workshop/niraj/digital_selex/results/rankings --round 1
+2026-05-01 23:01:27,717 INFO Computing composite scores …
+2026-05-01 23:01:27,809 INFO Detailed scores: /home/workshop/niraj/digital_selex/results/rankings/round_01_scores_detailed.csv
+2026-05-01 23:01:27,810 INFO Ranking aptamers …
+2026-05-01 23:01:27,892 INFO Ranked aptamers: /home/workshop/niraj/digital_selex/results/rankings/round_01_ranked.csv
+2026-05-01 23:01:27,905 INFO 
+Top 10 aptamers (round 1):
+ rank     seq_id                                   sequence  mean_score best_target
+    1 R01_M00003 UCAGGUCUCUAGCUUGUCACGAUGCAGGAUAGGGCCUACCGA    2.459334  isocitrate
+    2 R01_M00000 GCAGGUCUCUGGCUUAACACGCUGUAGGACAGGGCCUAGUCA    2.297859     citrate
+    3 R01_M00006 UCAGGUCUCUGGCUUAUCAAAAUGUAGGAAAGGGCCUAGCCA    2.255381     citrate
+    4 R01_M00002          AUAAGCAUGUGCGUCCCAGAGCAUAGCAUCUAC    1.968669     citrate
+    5 R01_M00001            GCACCUGACGUACUCGCCAUUUAGUGGCGUC    1.885541     citrate
+    6 R01_M00007            GCACCGGACGUUCUCGCUAUUUAGAGUCGUC    1.826580     citrate
+    7 R01_M00004            GCAUCUUACGUACUCGGCGUUUAGAGGCGUU    1.805195  isocitrate
+    8 R01_N00000     CGCGACAAGAGUUGUAAUACCACAGCCUCGUAAUAAGA    1.718799  isocitrate
+    9 R01_M00005          AAAAGCCUGCGCGUACCAGAGCAUAGCAUCUGU    1.574526     citrate
+   10 R00_S00003                                       None    1.573714     citrate
+2026-05-01 23:01:28,198 INFO 
+═══ SELEX Round 2/2 ═══
+2026-05-01 23:01:28,207 INFO   Selected 3 top aptamers for mutation
+2026-05-01 23:01:28,213 INFO   Built pool: 10 sequences (8 mutants + 2 random)
+2026-05-01 23:01:28,214 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/03_predict_2d_structure.py --fasta /home/workshop/niraj/digital_selex/sequences/round_02_pool.fasta --outdir /home/workshop/niraj/digital_selex/structures/2d --round 2
+2026-05-01 23:01:29,449 INFO Predicted structures for 10 sequences → /home/workshop/niraj/digital_selex/structures/2d/round_02_structures.csv
+2026-05-01 23:01:29,602 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/04_generate_3d_structure.py --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_02_structures.csv --outdir /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 23:01:30,685 INFO Building 3D structures for 10 sequences (coarse-grain A-form)
+2026-05-01 23:01:30,726 INFO Generated 10/10 3D structures in /home/workshop/niraj/digital_selex/structures/3d
+2026-05-01 23:01:30,727 WARNING REMINDER: 3D structures are APPROXIMATE (A-form coarse-grain). Docking scores are comparative only – not absolute binding energies.
+2026-05-01 23:01:30,863 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/05_prepare_docking.py --3d-dir /home/workshop/niraj/digital_selex/structures/3d --round 2
+2026-05-01 23:01:31,969 INFO ── Preparing ligand PDBQT files ─────────────
+2026-05-01 23:01:33,809 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/citrate.pdbqt
+2026-05-01 23:01:33,825 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/isocitrate.pdbqt
+2026-05-01 23:01:33,837 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/alpha_ketoglutarate.pdbqt
+2026-05-01 23:01:33,848 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinate.pdbqt
+2026-05-01 23:01:33,859 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/fumarate.pdbqt
+2026-05-01 23:01:33,871 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/malate.pdbqt
+2026-05-01 23:01:33,881 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/oxaloacetate.pdbqt
+2026-05-01 23:01:33,925 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinyl_coa.pdbqt
+2026-05-01 23:01:33,926 INFO ── Preparing receptor PDBQT files ───────────
+2026-05-01 23:01:33,927 INFO Preparing 30 receptor PDBQT files
+2026-05-01 23:01:34,086 INFO Prepared 30 receptor PDBQT files
+2026-05-01 23:01:34,492 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/06_run_docking.py --round 2 --resume
+2026-05-01 23:01:35,608 INFO Docking 30 receptors × 7 ligands (exhaustiveness=4)
+2026-05-01 23:01:35,612 INFO   [1/210] Recover (pose exists): R00_S00000 × citrate  affinity=-1.296
+2026-05-01 23:01:35,613 INFO   [2/210] Recover (pose exists): R00_S00000 × isocitrate  affinity=-1.269
+2026-05-01 23:01:35,615 INFO   [3/210] Recover (pose exists): R00_S00000 × alpha_ketoglutarate  affinity=-1.209
+2026-05-01 23:01:35,615 INFO   [4/210] Recover (pose exists): R00_S00000 × succinate  affinity=-1.002
+2026-05-01 23:01:35,616 INFO   [5/210] Recover (pose exists): R00_S00000 × fumarate  affinity=-1.098
+2026-05-01 23:01:35,617 INFO   [6/210] Recover (pose exists): R00_S00000 × malate  affinity=-1.144
+2026-05-01 23:01:35,618 INFO   [7/210] Recover (pose exists): R00_S00000 × oxaloacetate  affinity=-0.978
+2026-05-01 23:01:35,619 INFO   [8/210] Recover (pose exists): R00_S00001 × citrate  affinity=-1.223
+2026-05-01 23:01:35,620 INFO   [9/210] Recover (pose exists): R00_S00001 × isocitrate  affinity=-1.219
+2026-05-01 23:01:35,621 INFO   [10/210] Recover (pose exists): R00_S00001 × alpha_ketoglutarate  affinity=-0.938
+2026-05-01 23:01:35,622 INFO   [11/210] Recover (pose exists): R00_S00001 × succinate  affinity=-0.996
+2026-05-01 23:01:35,623 INFO   [12/210] Recover (pose exists): R00_S00001 × fumarate  affinity=-1.099
+2026-05-01 23:01:35,623 INFO   [13/210] Recover (pose exists): R00_S00001 × malate  affinity=-1.096
+2026-05-01 23:01:35,624 INFO   [14/210] Recover (pose exists): R00_S00001 × oxaloacetate  affinity=-0.898
+2026-05-01 23:01:35,625 INFO   [15/210] Recover (pose exists): R00_S00002 × citrate  affinity=-1.208
+2026-05-01 23:01:35,627 INFO   [16/210] Recover (pose exists): R00_S00002 × isocitrate  affinity=-1.094
+2026-05-01 23:01:35,627 INFO   [17/210] Recover (pose exists): R00_S00002 × alpha_ketoglutarate  affinity=-0.941
+2026-05-01 23:01:35,628 INFO   [18/210] Recover (pose exists): R00_S00002 × succinate  affinity=-0.928
+2026-05-01 23:01:35,629 INFO   [19/210] Recover (pose exists): R00_S00002 × fumarate  affinity=-1.093
+2026-05-01 23:01:35,630 INFO   [20/210] Recover (pose exists): R00_S00002 × malate  affinity=-1.041
+2026-05-01 23:01:35,631 INFO   [21/210] Recover (pose exists): R00_S00002 × oxaloacetate  affinity=-0.909
+2026-05-01 23:01:35,632 INFO   [22/210] Recover (pose exists): R00_S00003 × citrate  affinity=-1.713
+2026-05-01 23:01:35,633 INFO   [23/210] Recover (pose exists): R00_S00003 × isocitrate  affinity=-1.628
+2026-05-01 23:01:35,634 INFO   [24/210] Recover (pose exists): R00_S00003 × alpha_ketoglutarate  affinity=-1.537
+2026-05-01 23:01:35,634 INFO   [25/210] Recover (pose exists): R00_S00003 × succinate  affinity=-1.522
+2026-05-01 23:01:35,635 INFO   [26/210] Recover (pose exists): R00_S00003 × fumarate  affinity=-1.535
+2026-05-01 23:01:35,636 INFO   [27/210] Recover (pose exists): R00_S00003 × malate  affinity=-1.553
+2026-05-01 23:01:35,637 INFO   [28/210] Recover (pose exists): R00_S00003 × oxaloacetate  affinity=-1.528
+2026-05-01 23:01:35,638 INFO   [29/210] Recover (pose exists): R00_S00004 × citrate  affinity=-0.268
+2026-05-01 23:01:35,639 INFO   [30/210] Recover (pose exists): R00_S00004 × isocitrate  affinity=-0.291
+2026-05-01 23:01:35,640 INFO   [31/210] Recover (pose exists): R00_S00004 × alpha_ketoglutarate  affinity=-0.233
+2026-05-01 23:01:35,640 INFO   [32/210] Recover (pose exists): R00_S00004 × succinate  affinity=-0.272
+2026-05-01 23:01:35,641 INFO   [33/210] Recover (pose exists): R00_S00004 × fumarate  affinity=-0.256
+2026-05-01 23:01:35,642 INFO   [34/210] Recover (pose exists): R00_S00004 × malate  affinity=-0.3
+2026-05-01 23:01:35,643 INFO   [35/210] Recover (pose exists): R00_S00004 × oxaloacetate  affinity=-0.261
+2026-05-01 23:01:35,644 INFO   [36/210] Recover (pose exists): R00_S00005 × citrate  affinity=-1.212
+2026-05-01 23:01:35,645 INFO   [37/210] Recover (pose exists): R00_S00005 × isocitrate  affinity=-1.318
+2026-05-01 23:01:35,646 INFO   [38/210] Recover (pose exists): R00_S00005 × alpha_ketoglutarate  affinity=-1.089
+2026-05-01 23:01:35,647 INFO   [39/210] Recover (pose exists): R00_S00005 × succinate  affinity=-1.065
+2026-05-01 23:01:35,647 INFO   [40/210] Recover (pose exists): R00_S00005 × fumarate  affinity=-1.073
+2026-05-01 23:01:35,648 INFO   [41/210] Recover (pose exists): R00_S00005 × malate  affinity=-1.258
+2026-05-01 23:01:35,649 INFO   [42/210] Recover (pose exists): R00_S00005 × oxaloacetate  affinity=-1.076
+2026-05-01 23:01:35,650 INFO   [43/210] Recover (pose exists): R00_S00006 × citrate  affinity=-0.405
+2026-05-01 23:01:35,651 INFO   [44/210] Recover (pose exists): R00_S00006 × isocitrate  affinity=-0.448
+2026-05-01 23:01:35,652 INFO   [45/210] Recover (pose exists): R00_S00006 × alpha_ketoglutarate  affinity=-0.415
+2026-05-01 23:01:35,652 INFO   [46/210] Recover (pose exists): R00_S00006 × succinate  affinity=-0.4
+2026-05-01 23:01:35,653 INFO   [47/210] Recover (pose exists): R00_S00006 × fumarate  affinity=-0.436
+2026-05-01 23:01:35,654 INFO   [48/210] Recover (pose exists): R00_S00006 × malate  affinity=-0.42
+2026-05-01 23:01:35,655 INFO   [49/210] Recover (pose exists): R00_S00006 × oxaloacetate  affinity=-0.297
+2026-05-01 23:01:35,656 INFO   [50/210] Recover (pose exists): R00_S00007 × citrate  affinity=-1.188
+2026-05-01 23:01:35,657 INFO   [51/210] Recover (pose exists): R00_S00007 × isocitrate  affinity=-1.093
+2026-05-01 23:01:35,658 INFO   [52/210] Recover (pose exists): R00_S00007 × alpha_ketoglutarate  affinity=-0.915
+2026-05-01 23:01:35,658 INFO   [53/210] Recover (pose exists): R00_S00007 × succinate  affinity=-0.895
+2026-05-01 23:01:35,659 INFO   [54/210] Recover (pose exists): R00_S00007 × fumarate  affinity=-0.987
+2026-05-01 23:01:35,660 INFO   [55/210] Recover (pose exists): R00_S00007 × malate  affinity=-1.025
+2026-05-01 23:01:35,661 INFO   [56/210] Recover (pose exists): R00_S00007 × oxaloacetate  affinity=-0.939
+2026-05-01 23:01:35,662 INFO   [57/210] Recover (pose exists): R00_S00008 × citrate  affinity=-1.215
+2026-05-01 23:01:35,663 INFO   [58/210] Recover (pose exists): R00_S00008 × isocitrate  affinity=-1.241
+2026-05-01 23:01:35,664 INFO   [59/210] Recover (pose exists): R00_S00008 × alpha_ketoglutarate  affinity=-1.059
+2026-05-01 23:01:35,664 INFO   [60/210] Recover (pose exists): R00_S00008 × succinate  affinity=-0.99
+2026-05-01 23:01:35,665 INFO   [61/210] Recover (pose exists): R00_S00008 × fumarate  affinity=-1.138
+2026-05-01 23:01:35,666 INFO   [62/210] Recover (pose exists): R00_S00008 × malate  affinity=-1.133
+2026-05-01 23:01:35,667 INFO   [63/210] Recover (pose exists): R00_S00008 × oxaloacetate  affinity=-1.078
+2026-05-01 23:01:35,668 INFO   [64/210] Recover (pose exists): R00_S00009 × citrate  affinity=-0.65
+2026-05-01 23:01:35,669 INFO   [65/210] Recover (pose exists): R00_S00009 × isocitrate  affinity=-0.706
+2026-05-01 23:01:35,670 INFO   [66/210] Recover (pose exists): R00_S00009 × alpha_ketoglutarate  affinity=-0.688
+2026-05-01 23:01:35,670 INFO   [67/210] Recover (pose exists): R00_S00009 × succinate  affinity=-0.585
+2026-05-01 23:01:35,671 INFO   [68/210] Recover (pose exists): R00_S00009 × fumarate  affinity=-0.616
+2026-05-01 23:01:35,672 INFO   [69/210] Recover (pose exists): R00_S00009 × malate  affinity=-0.56
+2026-05-01 23:01:35,673 INFO   [70/210] Recover (pose exists): R00_S00009 × oxaloacetate  affinity=-0.561
+2026-05-01 23:01:35,674 INFO   [71/210] Recover (pose exists): R01_M00000 × citrate  affinity=-1.32
+2026-05-01 23:01:35,675 INFO   [72/210] Recover (pose exists): R01_M00000 × isocitrate  affinity=-1.266
+2026-05-01 23:01:35,676 INFO   [73/210] Recover (pose exists): R01_M00000 × alpha_ketoglutarate  affinity=-1.122
+2026-05-01 23:01:35,676 INFO   [74/210] Recover (pose exists): R01_M00000 × succinate  affinity=-0.949
+2026-05-01 23:01:35,677 INFO   [75/210] Recover (pose exists): R01_M00000 × fumarate  affinity=-1.061
+2026-05-01 23:01:35,678 INFO   [76/210] Recover (pose exists): R01_M00000 × malate  affinity=-1.153
+2026-05-01 23:01:35,679 INFO   [77/210] Recover (pose exists): R01_M00000 × oxaloacetate  affinity=-0.979
+2026-05-01 23:01:35,680 INFO   [78/210] Recover (pose exists): R01_M00001 × citrate  affinity=-1.332
+2026-05-01 23:01:35,681 INFO   [79/210] Recover (pose exists): R01_M00001 × isocitrate  affinity=-1.276
+2026-05-01 23:01:35,682 INFO   [80/210] Recover (pose exists): R01_M00001 × alpha_ketoglutarate  affinity=-1.127
+2026-05-01 23:01:35,683 INFO   [81/210] Recover (pose exists): R01_M00001 × succinate  affinity=-1.008
+2026-05-01 23:01:35,683 INFO   [82/210] Recover (pose exists): R01_M00001 × fumarate  affinity=-1.117
+2026-05-01 23:01:35,684 INFO   [83/210] Recover (pose exists): R01_M00001 × malate  affinity=-1.173
+2026-05-01 23:01:35,685 INFO   [84/210] Recover (pose exists): R01_M00001 × oxaloacetate  affinity=-1.014
+2026-05-01 23:01:35,686 INFO   [85/210] Recover (pose exists): R01_M00002 × citrate  affinity=-1.42
+2026-05-01 23:01:35,687 INFO   [86/210] Recover (pose exists): R01_M00002 × isocitrate  affinity=-1.338
+2026-05-01 23:01:35,688 INFO   [87/210] Recover (pose exists): R01_M00002 × alpha_ketoglutarate  affinity=-1.115
+2026-05-01 23:01:35,689 INFO   [88/210] Recover (pose exists): R01_M00002 × succinate  affinity=-1.057
+2026-05-01 23:01:35,689 INFO   [89/210] Recover (pose exists): R01_M00002 × fumarate  affinity=-1.136
+2026-05-01 23:01:35,690 INFO   [90/210] Recover (pose exists): R01_M00002 × malate  affinity=-1.211
+2026-05-01 23:01:35,691 INFO   [91/210] Recover (pose exists): R01_M00002 × oxaloacetate  affinity=-0.979
+2026-05-01 23:01:35,692 INFO   [92/210] Recover (pose exists): R01_M00003 × citrate  affinity=-1.334
+2026-05-01 23:01:35,693 INFO   [93/210] Recover (pose exists): R01_M00003 × isocitrate  affinity=-1.412
+2026-05-01 23:01:35,694 INFO   [94/210] Recover (pose exists): R01_M00003 × alpha_ketoglutarate  affinity=-0.997
+2026-05-01 23:01:35,695 INFO   [95/210] Recover (pose exists): R01_M00003 × succinate  affinity=-0.955
+2026-05-01 23:01:35,695 INFO   [96/210] Recover (pose exists): R01_M00003 × fumarate  affinity=-1.075
+2026-05-01 23:01:35,696 INFO   [97/210] Recover (pose exists): R01_M00003 × malate  affinity=-1.158
+2026-05-01 23:01:35,697 INFO   [98/210] Recover (pose exists): R01_M00003 × oxaloacetate  affinity=-0.991
+2026-05-01 23:01:35,698 INFO   [99/210] Recover (pose exists): R01_M00004 × citrate  affinity=-1.211
+2026-05-01 23:01:35,699 INFO   [100/210] Recover (pose exists): R01_M00004 × isocitrate  affinity=-1.23
+2026-05-01 23:01:35,700 INFO   [101/210] Recover (pose exists): R01_M00004 × alpha_ketoglutarate  affinity=-1.048
+2026-05-01 23:01:35,701 INFO   [102/210] Recover (pose exists): R01_M00004 × succinate  affinity=-0.859
+2026-05-01 23:01:35,701 INFO   [103/210] Recover (pose exists): R01_M00004 × fumarate  affinity=-1.095
+2026-05-01 23:01:35,702 INFO   [104/210] Recover (pose exists): R01_M00004 × malate  affinity=-1.096
+2026-05-01 23:01:35,703 INFO   [105/210] Recover (pose exists): R01_M00004 × oxaloacetate  affinity=-0.923
+2026-05-01 23:01:35,704 INFO   [106/210] Recover (pose exists): R01_M00005 × citrate  affinity=-1.304
+2026-05-01 23:01:35,705 INFO   [107/210] Recover (pose exists): R01_M00005 × isocitrate  affinity=-1.243
+2026-05-01 23:01:35,706 INFO   [108/210] Recover (pose exists): R01_M00005 × alpha_ketoglutarate  affinity=-1.123
+2026-05-01 23:01:35,707 INFO   [109/210] Recover (pose exists): R01_M00005 × succinate  affinity=-1.039
+2026-05-01 23:01:35,708 INFO   [110/210] Recover (pose exists): R01_M00005 × fumarate  affinity=-1.092
+2026-05-01 23:01:35,708 INFO   [111/210] Recover (pose exists): R01_M00005 × malate  affinity=-1.142
+2026-05-01 23:01:35,709 INFO   [112/210] Recover (pose exists): R01_M00005 × oxaloacetate  affinity=-1.004
+2026-05-01 23:01:35,710 INFO   [113/210] Recover (pose exists): R01_M00006 × citrate  affinity=-1.329
+2026-05-01 23:01:35,711 INFO   [114/210] Recover (pose exists): R01_M00006 × isocitrate  affinity=-1.235
+2026-05-01 23:01:35,712 INFO   [115/210] Recover (pose exists): R01_M00006 × alpha_ketoglutarate  affinity=-1.031
+2026-05-01 23:01:35,713 INFO   [116/210] Recover (pose exists): R01_M00006 × succinate  affinity=-0.967
+2026-05-01 23:01:35,714 INFO   [117/210] Recover (pose exists): R01_M00006 × fumarate  affinity=-1.001
+2026-05-01 23:01:35,715 INFO   [118/210] Recover (pose exists): R01_M00006 × malate  affinity=-1.137
+2026-05-01 23:01:35,715 INFO   [119/210] Recover (pose exists): R01_M00006 × oxaloacetate  affinity=-0.976
+2026-05-01 23:01:35,717 INFO   [120/210] Recover (pose exists): R01_M00007 × citrate  affinity=-1.338
+2026-05-01 23:01:35,717 INFO   [121/210] Recover (pose exists): R01_M00007 × isocitrate  affinity=-1.25
+2026-05-01 23:01:35,718 INFO   [122/210] Recover (pose exists): R01_M00007 × alpha_ketoglutarate  affinity=-1.138
+2026-05-01 23:01:35,719 INFO   [123/210] Recover (pose exists): R01_M00007 × succinate  affinity=-1.033
+2026-05-01 23:01:35,720 INFO   [124/210] Recover (pose exists): R01_M00007 × fumarate  affinity=-1.134
+2026-05-01 23:01:35,721 INFO   [125/210] Recover (pose exists): R01_M00007 × malate  affinity=-1.14
+2026-05-01 23:01:35,721 INFO   [126/210] Recover (pose exists): R01_M00007 × oxaloacetate  affinity=-1.01
+2026-05-01 23:01:35,723 INFO   [127/210] Recover (pose exists): R01_N00000 × citrate  affinity=-1.317
+2026-05-01 23:01:35,724 INFO   [128/210] Recover (pose exists): R01_N00000 × isocitrate  affinity=-1.331
+2026-05-01 23:01:35,724 INFO   [129/210] Recover (pose exists): R01_N00000 × alpha_ketoglutarate  affinity=-1.073
+2026-05-01 23:01:35,725 INFO   [130/210] Recover (pose exists): R01_N00000 × succinate  affinity=-1.028
+2026-05-01 23:01:35,726 INFO   [131/210] Recover (pose exists): R01_N00000 × fumarate  affinity=-1.1
+2026-05-01 23:01:35,727 INFO   [132/210] Recover (pose exists): R01_N00000 × malate  affinity=-1.182
+2026-05-01 23:01:35,728 INFO   [133/210] Recover (pose exists): R01_N00000 × oxaloacetate  affinity=-1.029
+2026-05-01 23:01:35,729 INFO   [134/210] Recover (pose exists): R01_N00001 × citrate  affinity=-1.408
+2026-05-01 23:01:35,730 INFO   [135/210] Recover (pose exists): R01_N00001 × isocitrate  affinity=-1.319
+2026-05-01 23:01:35,730 INFO   [136/210] Recover (pose exists): R01_N00001 × alpha_ketoglutarate  affinity=-1.055
+2026-05-01 23:01:35,731 INFO   [137/210] Recover (pose exists): R01_N00001 × succinate  affinity=-1.057
+2026-05-01 23:01:35,732 INFO   [138/210] Recover (pose exists): R01_N00001 × fumarate  affinity=-1.119
+2026-05-01 23:01:35,733 INFO   [139/210] Recover (pose exists): R01_N00001 × malate  affinity=-1.201
+2026-05-01 23:01:35,733 INFO   [140/210] Recover (pose exists): R01_N00001 × oxaloacetate  affinity=-1.036
+2026-05-01 23:01:35,734 INFO   [141/210] Docking R02_M00000 × citrate
+2026-05-01 23:02:07,727 INFO   [142/210] Docking R02_M00000 × isocitrate
+2026-05-01 23:02:40,424 INFO   [143/210] Docking R02_M00000 × alpha_ketoglutarate
+2026-05-01 23:02:57,572 INFO   [144/210] Docking R02_M00000 × succinate
+2026-05-01 23:03:10,639 INFO   [145/210] Docking R02_M00000 × fumarate
+2026-05-01 23:03:22,064 INFO   [146/210] Docking R02_M00000 × malate
+2026-05-01 23:03:38,865 INFO   [147/210] Docking R02_M00000 × oxaloacetate
+2026-05-01 23:03:53,585 INFO   [148/210] Docking R02_M00001 × citrate
+2026-05-01 23:04:26,671 INFO   [149/210] Docking R02_M00001 × isocitrate
+2026-05-01 23:05:00,051 INFO   [150/210] Docking R02_M00001 × alpha_ketoglutarate
+2026-05-01 23:05:17,475 INFO   [151/210] Docking R02_M00001 × succinate
+2026-05-01 23:05:30,865 INFO   [152/210] Docking R02_M00001 × fumarate
+2026-05-01 23:05:42,554 INFO   [153/210] Docking R02_M00001 × malate
+2026-05-01 23:05:59,310 INFO   [154/210] Docking R02_M00001 × oxaloacetate
+2026-05-01 23:06:14,464 INFO   [155/210] Docking R02_M00002 × citrate
+2026-05-01 23:06:48,236 INFO   [156/210] Docking R02_M00002 × isocitrate
+2026-05-01 23:07:21,784 INFO   [157/210] Docking R02_M00002 × alpha_ketoglutarate
+2026-05-01 23:07:39,395 INFO   [158/210] Docking R02_M00002 × succinate
+2026-05-01 23:07:53,879 INFO   [159/210] Docking R02_M00002 × fumarate
+2026-05-01 23:08:06,173 INFO   [160/210] Docking R02_M00002 × malate
+2026-05-01 23:08:23,567 INFO   [161/210] Docking R02_M00002 × oxaloacetate
+2026-05-01 23:08:38,911 INFO   [162/210] Docking R02_M00003 × citrate
+2026-05-01 23:09:12,188 INFO   [163/210] Docking R02_M00003 × isocitrate
+2026-05-01 23:09:45,794 INFO   [164/210] Docking R02_M00003 × alpha_ketoglutarate
+2026-05-01 23:10:03,752 INFO   [165/210] Docking R02_M00003 × succinate
+2026-05-01 23:10:17,313 INFO   [166/210] Docking R02_M00003 × fumarate
+2026-05-01 23:10:29,234 INFO   [167/210] Docking R02_M00003 × malate
+2026-05-01 23:10:46,166 INFO   [168/210] Docking R02_M00003 × oxaloacetate
+2026-05-01 23:11:01,429 INFO   [169/210] Docking R02_M00004 × citrate
+2026-05-01 23:11:33,665 INFO   [170/210] Docking R02_M00004 × isocitrate
+2026-05-01 23:12:06,708 INFO   [171/210] Docking R02_M00004 × alpha_ketoglutarate
+2026-05-01 23:12:23,711 INFO   [172/210] Docking R02_M00004 × succinate
+2026-05-01 23:12:36,514 INFO   [173/210] Docking R02_M00004 × fumarate
+2026-05-01 23:12:47,829 INFO   [174/210] Docking R02_M00004 × malate
+2026-05-01 23:13:04,129 INFO   [175/210] Docking R02_M00004 × oxaloacetate
+2026-05-01 23:13:18,932 INFO   [176/210] Docking R02_M00005 × citrate
+2026-05-01 23:13:50,691 INFO   [177/210] Docking R02_M00005 × isocitrate
+2026-05-01 23:14:23,283 INFO   [178/210] Docking R02_M00005 × alpha_ketoglutarate
+2026-05-01 23:14:40,344 INFO   [179/210] Docking R02_M00005 × succinate
+2026-05-01 23:14:53,292 INFO   [180/210] Docking R02_M00005 × fumarate
+2026-05-01 23:15:04,672 INFO   [181/210] Docking R02_M00005 × malate
+2026-05-01 23:15:21,042 INFO   [182/210] Docking R02_M00005 × oxaloacetate
+2026-05-01 23:15:35,680 INFO   [183/210] Docking R02_M00006 × citrate
+2026-05-01 23:16:07,747 INFO   [184/210] Docking R02_M00006 × isocitrate
+2026-05-01 23:16:39,938 INFO   [185/210] Docking R02_M00006 × alpha_ketoglutarate
+2026-05-01 23:16:57,039 INFO   [186/210] Docking R02_M00006 × succinate
+2026-05-01 23:17:10,157 INFO   [187/210] Docking R02_M00006 × fumarate
+2026-05-01 23:17:21,600 INFO   [188/210] Docking R02_M00006 × malate
+2026-05-01 23:17:38,071 INFO   [189/210] Docking R02_M00006 × oxaloacetate
+2026-05-01 23:17:52,685 INFO   [190/210] Docking R02_M00007 × citrate
+2026-05-01 23:18:26,042 INFO   [191/210] Docking R02_M00007 × isocitrate
+2026-05-01 23:18:58,097 INFO   [192/210] Docking R02_M00007 × alpha_ketoglutarate
+2026-05-01 23:19:15,502 INFO   [193/210] Docking R02_M00007 × succinate
+2026-05-01 23:19:28,832 INFO   [194/210] Docking R02_M00007 × fumarate
+2026-05-01 23:19:40,321 INFO   [195/210] Docking R02_M00007 × malate
+2026-05-01 23:19:56,885 INFO   [196/210] Docking R02_M00007 × oxaloacetate
+2026-05-01 23:20:11,721 INFO   [197/210] Docking R02_N00000 × citrate
+2026-05-01 23:20:47,466 INFO   [198/210] Docking R02_N00000 × isocitrate
+2026-05-01 23:21:22,265 INFO   [199/210] Docking R02_N00000 × alpha_ketoglutarate
+2026-05-01 23:21:40,482 INFO   [200/210] Docking R02_N00000 × succinate
+2026-05-01 23:21:55,172 INFO   [201/210] Docking R02_N00000 × fumarate
+2026-05-01 23:22:07,983 INFO   [202/210] Docking R02_N00000 × malate
+2026-05-01 23:22:26,082 INFO   [203/210] Docking R02_N00000 × oxaloacetate
+2026-05-01 23:22:41,947 INFO   [204/210] Docking R02_N00001 × citrate
+2026-05-01 23:23:15,981 INFO   [205/210] Docking R02_N00001 × isocitrate
+2026-05-01 23:23:49,615 INFO   [206/210] Docking R02_N00001 × alpha_ketoglutarate
+2026-05-01 23:24:07,308 INFO   [207/210] Docking R02_N00001 × succinate
+2026-05-01 23:24:21,247 INFO   [208/210] Docking R02_N00001 × fumarate
+2026-05-01 23:24:33,431 INFO   [209/210] Docking R02_N00001 × malate
+2026-05-01 23:24:50,746 INFO   [210/210] Docking R02_N00001 × oxaloacetate
+2026-05-01 23:25:06,154 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_02_docking_results.csv  (210 pairs)
+2026-05-01 23:25:06,330 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python /home/workshop/niraj/digital_selex/scripts/07_score_aptamers.py --docking-csv /home/workshop/niraj/digital_selex/docking/results/round_02_docking_results.csv --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_02_structures.csv --seq-csv /home/workshop/niraj/digital_selex/sequences/round_02_pool.csv --outdir /home/workshop/niraj/digital_selex/results/rankings --round 2
+2026-05-01 23:25:08,487 INFO Computing composite scores …
+2026-05-01 23:25:08,581 INFO Detailed scores: /home/workshop/niraj/digital_selex/results/rankings/round_02_scores_detailed.csv
+2026-05-01 23:25:08,582 INFO Ranking aptamers …
+2026-05-01 23:25:08,674 INFO Ranked aptamers: /home/workshop/niraj/digital_selex/results/rankings/round_02_ranked.csv
+2026-05-01 23:25:08,687 INFO 
+Top 10 aptamers (round 2):
+ rank     seq_id                                       sequence  mean_score best_target
+    1 R02_M00006     UAAGGUCCCUAGUUUGUCUCUAUGCAGGAUAGGGACUACCUA    2.666620  isocitrate
+    2 R02_M00001     GCAGGUCUCAGGCUUAACACGCUGUAGGCCAGGGCCUAGUGA    2.600954  isocitrate
+    3 R02_M00000     GCAGGUCUCUAGCUUGCCACGAUGCAUGGUAGGGCCUACCGA    2.540954  isocitrate
+    4 R02_N00001 GUUGGCCACGUUAAGACGCACACUGUACCAUGUCCAGUGUAGCAGG    2.048254  isocitrate
+    5 R02_M00002     UCAUGUCUCUGGCUUAAUAAAUUGUAGACAAGGGCCUAGACA    2.032811     citrate
+    6 R02_M00004     GCAGGUGUAUGGCCUAACGAGCUUUAGGAGAGGGCCUAGUCU    1.978191     citrate
+    7 R02_M00007     GCAGGUUUCUGGCUGAACACGCUGUACGACACGGCCUAGUCA    1.917573     citrate
+    8 R02_M00005     UCAGGUCUGUGGCUUACCAAAUUGUAGGAAAGGGCGUAGCGA    1.873429     citrate
+    9 R02_M00003     UCAGGUCUAUAGCUUGUCACGAUCCAGGAUAGUGCCUACCGA    1.851714     citrate
+   10 R00_S00003                                           None    1.573714     citrate
+2026-05-01 23:25:08,980 INFO 
+═══ SELEX complete. Final rankings: /home/workshop/niraj/digital_selex/results/rankings/round_02_ranked.csv ═══
+2026-05-01 23:27:53,042 INFO Training device: cpu
+2026-05-01 23:27:53,096 INFO Training on 30 aptamer samples
+2026-05-01 23:27:58,884 INFO   Epoch   1/50 | train_loss=0.1824 | val_loss=0.1982 | val_mae=0.4162
+2026-05-01 23:27:59,441 INFO   Epoch  10/50 | train_loss=0.0425 | val_loss=0.1049 | val_mae=0.2991
+2026-05-01 23:28:00,131 INFO   Epoch  20/50 | train_loss=0.0379 | val_loss=0.0735 | val_mae=0.2293
+2026-05-01 23:28:00,747 INFO   Epoch  30/50 | train_loss=0.0232 | val_loss=0.0793 | val_mae=0.2536
+2026-05-01 23:28:01,414 INFO   Epoch  40/50 | train_loss=0.0266 | val_loss=0.0682 | val_mae=0.2229
+2026-05-01 23:28:02,059 INFO   Epoch  50/50 | train_loss=0.0190 | val_loss=0.0701 | val_mae=0.2312
+2026-05-01 23:28:02,084 INFO Model saved to /home/workshop/niraj/digital_selex/models. Best val_loss=0.0661
+2026-05-01 23:28:03,676 INFO Training device: cpu
+2026-05-01 23:28:03,729 INFO Training on 30 aptamer samples
+2026-05-01 23:28:09,547 INFO   Epoch   1/50 | train_loss=0.1990 | val_loss=0.2642 | val_mae=0.4724
+2026-05-01 23:28:10,118 INFO   Epoch  10/50 | train_loss=0.0537 | val_loss=0.1103 | val_mae=0.3100
+2026-05-01 23:28:10,703 INFO   Epoch  20/50 | train_loss=0.0294 | val_loss=0.0793 | val_mae=0.2522
+2026-05-01 23:28:11,381 INFO   Epoch  30/50 | train_loss=0.0266 | val_loss=0.0754 | val_mae=0.2443
+2026-05-01 23:28:11,998 INFO   Epoch  40/50 | train_loss=0.0209 | val_loss=0.0764 | val_mae=0.2491
+2026-05-01 23:28:12,614 INFO   Epoch  50/50 | train_loss=0.0177 | val_loss=0.0747 | val_mae=0.2453
+2026-05-01 23:28:12,636 INFO Model saved to /home/workshop/niraj/digital_selex/models. Best val_loss=0.0747
+2026-05-01 23:28:29,666 INFO Saved: 01_score_distributions.png
+2026-05-01 23:28:30,104 INFO Saved: 02_convergence.png
+2026-05-01 23:28:32,478 INFO Saved: 03_heatmap_top20.png
+2026-05-01 23:28:33,259 INFO Saved: 04_gc_vs_score.png
+2026-05-02 00:22:26,841 INFO Saved: 01_score_distributions.png
+2026-05-02 00:22:27,273 INFO Saved: 02_convergence.png
+2026-05-02 00:22:29,742 INFO Saved: 03_heatmap_top20.png
+2026-05-02 00:22:30,475 INFO Saved: 04_gc_vs_score.png
+2026-05-02 00:22:31,191 INFO Saved: 05_mfe_vs_affinity.png
+2026-05-02 00:22:31,713 INFO Saved: 06_training_loss.png
+2026-05-02 00:22:31,727 INFO Final top-20 aptamers saved: /home/workshop/niraj/digital_selex/results/plots/final_top20_aptamers.csv
+2026-05-02 00:22:31,750 INFO 
+ rank     seq_id                                       sequence  mean_score best_target  specificity_index  gc_content   mfe
+    1 R02_M00006     UAAGGUCCCUAGUUUGUCUCUAUGCAGGAUAGGGACUACCUA    2.666620  isocitrate           1.082501      0.4524 -15.6
+    2 R02_M00001     GCAGGUCUCAGGCUUAACACGCUGUAGGCCAGGGCCUAGUGA    2.600954  isocitrate           1.080465      0.5952 -15.0
+    3 R02_M00000     GCAGGUCUCUAGCUUGCCACGAUGCAUGGUAGGGCCUACCGA    2.540954  isocitrate           1.091416      0.5952 -14.1
+    4 R02_N00001 GUUGGCCACGUUAAGACGCACACUGUACCAUGUCCAGUGUAGCAGG    2.048254  isocitrate           1.092064      0.5435  -9.5
+    5 R02_M00002     UCAUGUCUCUGGCUUAAUAAAUUGUAGACAAGGGCCUAGACA    2.032811     citrate           1.104007      0.4048  -9.2
+    6 R02_M00004     GCAGGUGUAUGGCCUAACGAGCUUUAGGAGAGGGCCUAGUCU    1.978191     citrate           1.099802      0.5476  -8.8
+    7 R02_M00007     GCAGGUUUCUGGCUGAACACGCUGUACGACACGGCCUAGUCA    1.917573     citrate           1.085450      0.5714  -7.5
+    8 R02_M00005     UCAGGUCUGUGGCUUACCAAAUUGUAGGAAAGGGCGUAGCGA    1.873429     citrate           1.100655      0.5000  -7.8
+    9 R02_M00003     UCAGGUCUAUAGCUUGUCACGAUCCAGGAUAGUGCCUACCGA    1.851714     citrate           1.115722      0.5000  -7.4
+   10 R00_S00003                                            NaN    1.573714     citrate           1.088507         NaN   NaN
+   11 R02_N00000                UCUGGAAUACUAAGCAUAAAUGUCCGCCACG    1.298866  isocitrate           1.173777      0.4516  -1.4
+   12 R01_M00002                                            NaN    1.179429     citrate           1.203972         NaN   NaN
+   13 R01_N00001                                            NaN    1.170714     citrate           1.202684         NaN   NaN
+   14 R00_S00005                                            NaN    1.155857  isocitrate           1.140278         NaN   NaN
+   15 R01_N00000                                            NaN    1.151429  isocitrate           1.155954         NaN   NaN
+   16 R01_M00001                                            NaN    1.149571     citrate           1.158692         NaN   NaN
+   17 R01_M00007                                            NaN    1.149000     citrate           1.164490         NaN   NaN
+   18 R00_S00000                                            NaN    1.142286     citrate           1.134566         NaN   NaN
+   19 R01_M00005                                            NaN    1.135286     citrate           1.148609         NaN   NaN
+   20 R01_M00003                                            NaN    1.131714  isocitrate           1.247664         NaN   NaN
+2026-05-02 00:22:31,751 INFO 
+All plots saved to: /home/workshop/niraj/digital_selex/results/plots
+2026-05-03 08:57:58,692 INFO Processing citrate (CID=311)
+2026-05-03 08:57:59,725 INFO   Downloaded PubChem 3D SDF for CID 311
+2026-05-03 08:57:59,731 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/citrate.sdf
+2026-05-03 08:58:00,032 INFO Processing isocitrate (CID=1198)
+2026-05-03 08:58:01,057 INFO   Downloaded PubChem 3D SDF for CID 1198
+2026-05-03 08:58:01,063 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/isocitrate.sdf
+2026-05-03 08:58:01,364 INFO Processing alpha_ketoglutarate (CID=51)
+2026-05-03 08:58:02,419 INFO   Downloaded PubChem 3D SDF for CID 51
+2026-05-03 08:58:02,424 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/alpha_ketoglutarate.sdf
+2026-05-03 08:58:02,726 INFO Processing succinate (CID=1110)
+2026-05-03 08:58:04,742 INFO   Downloaded PubChem 3D SDF for CID 1110
+2026-05-03 08:58:04,750 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/succinate.sdf
+2026-05-03 08:58:05,052 INFO Processing fumarate (CID=444972)
+2026-05-03 08:58:06,073 INFO   Downloaded PubChem 3D SDF for CID 444972
+2026-05-03 08:58:06,079 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/fumarate.sdf
+2026-05-03 08:58:06,380 INFO Processing malate (CID=525)
+2026-05-03 08:58:07,946 INFO   Downloaded PubChem 3D SDF for CID 525
+2026-05-03 08:58:07,952 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/malate.sdf
+2026-05-03 08:58:08,253 INFO Processing oxaloacetate (CID=970)
+2026-05-03 08:58:09,219 INFO   Downloaded PubChem 3D SDF for CID 970
+2026-05-03 08:58:09,225 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/oxaloacetate.sdf
+2026-05-03 08:58:09,526 INFO Processing succinyl_coa (CID=91530)
+2026-05-03 08:58:10,445 WARNING   PubChem has no 3D SDF for CID 91530; will use RDKit
+2026-05-03 08:58:10,449 INFO   Falling back to RDKit 3D generation from SMILES
+2026-05-03 08:58:13,708 INFO   Saved: /home/workshop/niraj/digital_selex/data/ligands/succinyl_coa.sdf
+2026-05-03 08:58:14,010 INFO 
+Done. 8/8 metabolites prepared.
+2026-05-03 08:58:16,154 INFO ═══ Digital SELEX v2: 2 rounds, pool=10, μ_early=0.15, μ_late=0.05 ═══
+2026-05-03 08:58:16,155 INFO Round 0: Generating initial random pool …
+2026-05-03 08:58:16,155 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/02_generate_sequences.py --round 0
+2026-05-03 08:58:16,955 INFO Generating 10 random RNA sequences (round 0)
+2026-05-03 08:58:16,960 INFO Saved FASTA: /home/workshop/niraj/digital_selex/sequences/round_00_pool.fasta  (10 sequences)
+2026-05-03 08:58:16,962 INFO Saved CSV:   /home/workshop/niraj/digital_selex/sequences/round_00_pool.csv
+2026-05-03 08:58:17,083 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/03_predict_2d_structure.py --fasta /home/workshop/niraj/digital_selex/sequences/round_00_pool.fasta --outdir /home/workshop/niraj/digital_selex/structures/2d --round 0
+2026-05-03 08:58:18,047 INFO Predicted structures for 10 sequences → /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv
+2026-05-03 08:58:18,174 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/04_generate_3d_structure.py --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv --outdir /home/workshop/niraj/digital_selex/structures/3d
+2026-05-03 08:58:19,424 INFO Generating 3D structures for 10 sequences (method=aform_approx)
+2026-05-03 08:58:19,540 INFO Generated 10/10 3D structures in /home/workshop/niraj/digital_selex/structures/3d
+2026-05-03 08:58:19,541 WARNING REMINDER: 3D structures are APPROXIMATE (A-form coarse-grain). Docking scores are comparative only — not absolute binding energies. Set structure3d.method=rnacomposer in config.yaml for realistic structures.
+2026-05-03 08:58:19,703 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/05_prepare_docking.py --3d-dir /home/workshop/niraj/digital_selex/structures/3d --round 0
+2026-05-03 08:58:20,851 INFO ── Preparing ligand PDBQT files ─────────────
+2026-05-03 08:58:22,720 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/citrate.pdbqt
+2026-05-03 08:58:22,736 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/isocitrate.pdbqt
+2026-05-03 08:58:22,749 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/alpha_ketoglutarate.pdbqt
+2026-05-03 08:58:22,760 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinate.pdbqt
+2026-05-03 08:58:22,771 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/fumarate.pdbqt
+2026-05-03 08:58:22,784 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/malate.pdbqt
+2026-05-03 08:58:22,795 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/oxaloacetate.pdbqt
+2026-05-03 08:58:22,838 INFO   Ligand PDBQT: /home/workshop/niraj/digital_selex/docking/pdbqt/ligands/succinyl_coa.pdbqt
+2026-05-03 08:58:22,839 INFO ── Preparing receptor PDBQT files ───────────
+2026-05-03 08:58:22,840 INFO Preparing 50 receptor PDBQT files
+2026-05-03 08:58:23,105 INFO Prepared 50 receptor PDBQT files
+2026-05-03 08:58:23,523 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/06_run_docking.py --round 0 --resume
+2026-05-03 08:58:24,697 INFO Docking 50 receptors × 7 ligands (exhaustiveness=2, workers=1, cpu/job=2)
+2026-05-03 08:59:13,158 INFO   Progress: 10/350
+2026-05-03 09:01:02,552 INFO   Progress: 20/350
+2026-05-03 09:01:50,411 INFO   Progress: 30/350
+2026-05-03 09:03:39,643 INFO   Progress: 40/350
+2026-05-03 09:04:17,130 INFO   Progress: 50/350
+2026-05-03 09:06:11,549 INFO   Progress: 60/350
+2026-05-03 09:08:48,474 INFO   Progress: 80/350
+2026-05-03 09:11:24,675 INFO   Progress: 100/350
+2026-05-03 09:13:50,860 INFO   Progress: 120/350
+2026-05-03 09:16:15,942 INFO   Progress: 140/350
+2026-05-03 09:18:49,800 INFO   Progress: 160/350
+2026-05-03 09:21:20,047 INFO   Progress: 180/350
+2026-05-03 09:23:54,659 INFO   Progress: 200/350
+2026-05-03 09:25:41,428 INFO   Progress: 210/350
+2026-05-03 09:25:41,439 INFO   Progress: 220/350
+2026-05-03 09:25:41,445 INFO   Progress: 230/350
+2026-05-03 09:25:41,450 INFO   Progress: 240/350
+2026-05-03 09:25:41,456 INFO   Progress: 250/350
+2026-05-03 09:25:41,461 INFO   Progress: 260/350
+2026-05-03 09:25:41,466 INFO   Progress: 270/350
+2026-05-03 09:25:41,472 INFO   Progress: 280/350
+2026-05-03 09:25:41,477 INFO   Progress: 290/350
+2026-05-03 09:25:41,482 INFO   Progress: 300/350
+2026-05-03 09:25:41,487 INFO   Progress: 310/350
+2026-05-03 09:25:41,493 INFO   Progress: 320/350
+2026-05-03 09:25:41,498 INFO   Progress: 330/350
+2026-05-03 09:25:41,503 INFO   Progress: 340/350
+2026-05-03 09:25:41,508 INFO   Progress: 350/350
+2026-05-03 09:25:41,509 INFO Docking results saved: /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv  (280 pairs)
+2026-05-03 09:25:41,689 INFO   Running: /home/workshop/.conda/envs/digital_selex/bin/python3 /home/workshop/niraj/digital_selex/scripts/07_score_aptamers.py --docking-csv /home/workshop/niraj/digital_selex/docking/results/round_00_docking_results.csv --struct-csv /home/workshop/niraj/digital_selex/structures/2d/round_00_structures.csv --seq-csv /home/workshop/niraj/digital_selex/sequences/round_00_pool.csv --outdir /home/workshop/niraj/digital_selex/results/rankings --round 0
+2026-05-03 09:25:43,560 INFO ═══ Scoring round 0 ═══
+2026-05-03 09:25:43,620 INFO   Scoring 50 aptamers × 7 targets
+2026-05-03 09:25:45,015 INFO   Rescoring: H-bond and contact scores added
+2026-05-03 09:25:45,017 WARNING No off-target docking data — specificity component set to 0.5 (neutral). Add off_targets to config.yaml and dock them to enable negative selection.
+2026-05-03 09:25:45,057 INFO   Detailed scores: /home/workshop/niraj/digital_selex/results/rankings/round_00_scores_detailed.csv
+2026-05-03 09:25:45,122 INFO   Ranked aptamers: /home/workshop/niraj/digital_selex/results/rankings/round_00_ranked.csv
+2026-05-03 09:25:45,136 INFO 
+Top 10 aptamers (round 0):
+ rank         seq_id sequence  mean_score best_target
+    1 R00_S00006_c01     None    1.237600  isocitrate
+    2 R00_S00006_c02     None    1.212427  isocitrate
+    3 R00_S00005_c02     None    1.206082     citrate
+    4 R00_S00004_c01     None    1.191184  isocitrate
+    5 R00_S00009_c01     None    1.166870     citrate
+    6 R00_S00007_c01     None    1.165055     citrate
+    7 R00_S00001_c02     None    1.163792     citrate
+    8 R00_S00000_c02     None    1.161383     citrate
+    9 R00_S00008_c01     None    1.158910     citrate
+   10 R00_S00009_c02     None    1.148516  isocitrate
+2026-05-03 09:25:45,427 INFO   Round 0: 10 clusters from 10 sequences
+2026-05-03 09:25:45,427 INFO 
+═══ SELEX Round 1/1 ═══
+2026-05-03 09:25:45,428 INFO   Adaptive mutation rate: 0.0500

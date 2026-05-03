@@ -1,0 +1,68 @@
+docking:
+  box_size_angstrom: 20
+  cpu: 2
+  energy_range: 3.0
+  exhaustiveness: 2
+  n_workers: 1
+  num_modes: 5
+logging:
+  file: logs/pipeline.log
+  level: INFO
+ml:
+  attention_heads: 4
+  batch_size: 16
+  dropout: 0.3
+  epochs: 50
+  hidden_channels: 64
+  learning_rate: 0.001
+  prescreening_top_fraction: 0.1
+  train_split: 0.8
+  use_attention: true
+  use_structural_features: true
+paths:
+  data: data/
+  docking: docking/
+  logs: logs/
+  models: models/
+  results: results/
+  sequences: sequences/
+  structures_2d: structures/2d/
+  structures_3d: structures/3d/
+scoring:
+  affinity_weight: 1.0
+  contact_dist_cutoff: 4.0
+  contact_weight: 0.2
+  gc_penalty_weight: 0.05
+  hbond_dist_cutoff: 3.5
+  hbond_weight: 0.3
+  mfe_weight: 0.1
+  off_targets:
+  - glucose_6_phosphate
+  - atp
+  scoring_mode: weighted_sum
+  specificity_weight: 0.25
+  use_rescore: true
+  use_specificity: true
+selex:
+  cluster_sequences: true
+  cluster_threshold: 0.2
+  early_mutation_rate: 0.15
+  gc_content_max: 0.6
+  gc_content_min: 0.4
+  initial_pool_size: 10
+  late_mutation_rate: 0.05
+  mutation_rate: 0.1
+  random_fraction: 0.2
+  random_seed: 42
+  rounds: 2
+  selection_fraction: 0.3
+  seq_length_max: 50
+  seq_length_min: 30
+  track_lineage: true
+structure3d:
+  fallback_to_aform: true
+  method: aform_approx
+  n_conformers: 3
+  perturb_sigma: 0.5
+  rnacomposer_timeout: 120
+  rnacomposer_url: http://rnacomposer.cs.put.poznan.pl/api
