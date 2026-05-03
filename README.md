@@ -1,4 +1,4 @@
-# Digital SELEX v2 — In-silico Aptamer Discovery (Research-Grade Prototype)
+# Digital SELEX v2 — In-silico Aptamer Discovery
 
 A fully automated computational pipeline that simulates the SELEX
 (Systematic Evolution of Ligands by Exponential Enrichment) process
